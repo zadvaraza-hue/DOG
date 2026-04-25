@@ -1,7 +1,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Эстафета: Отметка</title>
+    <title>Отметка</title>
     <style>
         body { font-family: sans-serif; text-align: center; padding: 30px; background: #f4f4f4; }
         .btn { display: block; width: 100%; max-width: 300px; margin: 15px auto; padding: 25px; font-size: 18px; font-weight: bold; cursor: pointer; border: none; border-radius: 15px; color: white; text-transform: uppercase; }
