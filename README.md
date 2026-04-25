@@ -16,8 +16,7 @@
     <button id="btn-geo" class="btn" onclick="requestGeo()">Сообщить, что собака найдена</button>
     <button id="btn-sms" class="btn" onclick="sendSms()">Отправить СМС хозяину</button>
 
-    <div id="status">Нажмите кнопку 1</div>
-
+  
     <script>
         let currentCoords = "NW"; 
         const myNumber = "79001112233"; // ЗАМЕНИТЕ НА ВАШ НОМЕР
