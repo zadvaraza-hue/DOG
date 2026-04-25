@@ -16,7 +16,7 @@
 
     <h2>Отметка на этапе</h2>
     
-    <button id="btn-geo" class="btn" onclick="requestGeo()">1. Найти меня</button>
+    <button id="btn-geo" class="btn" onclick="requestGeo()">1. Найти меня!!!</button>
     <button id="btn-sms" class="btn" onclick="sendSms()">2. Отправить СМС</button>
 
     <div id="status">Нажмите кнопку 1</div>
