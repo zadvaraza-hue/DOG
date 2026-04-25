@@ -1,5 +1,3 @@
-# sait
-sobaka
 <!DOCTYPE html>
 <html lang="ru">
 <head>
