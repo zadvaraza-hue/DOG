@@ -13,7 +13,7 @@
 <body>
 
     
-    <button id="btn-geo" class="btn" onclick="requestGeo()">Сообщить, что собака найдена</button>
+    <button id="btn-geo" class="btn" onclick="requestGeo()">Сообщить, что собака найдена!</button>
     <button id="btn-sms" class="btn" onclick="sendSms()">Отправить СМС хозяину</button>
 
   
