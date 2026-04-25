@@ -22,7 +22,7 @@
 
     <script>
         let currentCoords = "NW"; 
-        const myNumber = "79166803073"; // ЗАМЕНИТЕ НА ВАШ НОМЕР
+        const myNumber = "78001234567"; // ЗАМЕНИТЕ НА ВАШ НОМЕР
 
         function requestGeo() {
             const status = document.getElementById('status');
@@ -41,14 +41,14 @@
                         finishGeo("Координаты определены!");
                     },
                     () => {
-                        currentCoords = "NW";
-                        finishGeo("Гео не найдено (отправляем NW)");
+                        currentCoords = "координаты не определены";
+                        finishGeo(" ");
                     },
                     { enableHighAccuracy: true, timeout: 7000, maximumAge: 0 }
                 );
             } else {
-                currentCoords = "NW";
-                finishGeo("Не поддерживается");
+                currentCoords = " ";
+                finishGeo("GPS не поддерживается");
             }
         }
 
