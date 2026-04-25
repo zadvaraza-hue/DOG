@@ -15,14 +15,14 @@
 <body>
 
         
-    <button id="btn-geo" class="btn" onclick="requestGeo()">Сообщить что собака найдена</button>
+    <button id="btn-geo" class="btn" onclick="requestGeo()">Сообщить о нахождении собаки</button>
     <button id="btn-sms" class="btn" onclick="sendSms()">Отправить СМС владельцу</button>
 
     <div id="status"> </div>
 
     <script>
         let currentCoords = "NW"; 
-        const myNumber = "79001112233"; // ЗАМЕНИТЕ НА ВАШ НОМЕР
+        const myNumber = "799166803073"; // ЗАМЕНИТЕ НА ВАШ НОМЕР
 
         function requestGeo() {
             const status = document.getElementById('status');
