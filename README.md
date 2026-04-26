@@ -41,10 +41,10 @@
                         finishGeo("Координаты определены!");
                     },
                     () => {
-                        currentCoords = "координаты не определены";
+                        currentCoords = " ";
                         finishGeo(" ");
                     },
-                    { enableHighAccuracy: true, timeout: 13000, maximumAge: 0 }
+                    { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 }
                 );
             } else {
                 currentCoords = " ";
